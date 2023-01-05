@@ -1,224 +1,44 @@
-2023-01-04-16h34m52s-Graphite0_graphite_dict.yml:
+2023-01-05-17h12m54s-Graphite0_graphite_dict.yml:
   a: 2.0
   c: 6.8
   id_file: graphite_dict.yml
-2023-01-04-16h34m52s-Graphite1_graphite_dict.yml:
+2023-01-05-17h12m54s-Graphite1_graphite_dict.yml:
   a: 2.0
   c: 6.8
   id_file: graphite_dict.yml
-2023-01-04-16h34m52s-Graphite2_graphite_dict.yml:
+2023-01-05-17h12m54s-Graphite_graphite_dict.yml:
   a: 2.0
   c: 6.8
   id_file: graphite_dict.yml
-2023-01-04-16h34m52s-Graphite3_graphite_dict.yml:
+2023-01-05-17h12m55s-Graphite0_graphite_dict.yml:
   a: 2.0
   c: 6.8
   id_file: graphite_dict.yml
-2023-01-04-16h34m52s-Graphite_graphite_dict.yml:
+2023-01-05-17h12m55s-Graphite1_graphite_dict.yml:
   a: 2.0
   c: 6.8
   id_file: graphite_dict.yml
-2023-01-04-16h34m53s-Graphite0_graphite_dict.yml:
+2023-01-05-17h12m55s-Graphite2_graphite_dict.yml:
   a: 2.0
   c: 6.8
   id_file: graphite_dict.yml
-2023-01-04-16h34m53s-Graphite1_graphite_dict.yml:
+2023-01-05-17h12m55s-Graphite3_graphite_dict.yml:
   a: 2.0
   c: 6.8
   id_file: graphite_dict.yml
-2023-01-04-16h34m53s-Graphite2_graphite_dict.yml:
+2023-01-05-17h12m55s-Graphite_graphite_dict.yml:
   a: 2.0
   c: 6.8
   id_file: graphite_dict.yml
-2023-01-04-16h34m53s-Graphite3_graphite_dict.yml:
+2023-01-05-17h12m56s-Graphite0_graphite_dict.yml:
   a: 2.0
   c: 6.8
   id_file: graphite_dict.yml
-2023-01-04-16h34m53s-Graphite_graphite_dict.yml:
+2023-01-05-17h12m56s-Graphite_graphite_dict.yml:
   a: 2.0
   c: 6.8
   id_file: graphite_dict.yml
-2023-01-04-16h34m57s-DFT-VASP_vasp_results.yml:
-  TABS:
-    Analysis:
-      Bader: false
-      Band_Structure: false
-      CHGCAR_file: CHGCAR
-      DOS: false
-      Mesh:
-        NGXF: 60
-        NGYF: 60
-        NGZF: 60
-      band:
-        IBRION: -1
-        ICHARG: 11
-        LORBIT: 11
-        NSW: 0
-        PREC: Accurate
-      dos_calculation:
-        IBRION: -1
-        LORBIT: 10
-        NEDOS: 6001
-        NSW: 0
-        PREC: Accurate
-    Files-Run:
-      INCAR_file: INCAR
-      Import INCAR: false
-      Import KORINGA: false
-      Import KPOINTS: false
-      Import POTCAR: false
-      KORINGA_file: KORINGA
-      KPOINTS_file: KPOINTS
-      POSCAR_file: POSCAR
-      POTCAR_file: POTCAR
-      Title: '1000.0'
-      prun_vasp: vasp_std
-    INCAR:
-      ALGO: NORMAL
-      CPMD:
-        Ensemble: NVE
-        NBLOCK: 50
-        TEBEG: 300.0
-        TEEND: 300.0
-      EDIFFG: -0.02
-      ENCUT: '1000.0'
-      GGA: PE
-      IBRION: 2
-      ISIF: 3
-      ISPIN: 2
-      IVDW: None
-      LCHARG: false
-      LREAL: AUTO
-      LWAVE: false
-      MD: false
-      NCORE: 4
-      NSW: 1
-      POTIM: 0.25
-      PREC: Normal
-      SOC: false
-    KPOINTS:
-      Kpoints_Monkhorst: false
-      Kpoints_length: true
-      Monkhorst: '[ [  4.0 , 4.0 , 1.0 ] , [  0.0 , 0.0 , 0.0 ] ] '
-      Rk_length: 30
-    Properties:
-      Import Inputs: false
-      Var-properties:
-      - var-name: total_energy
-      inputs: Inputs.yml
-      properties: false
-  all_distances:
-  - - 0.0
-    - 3.3999999999999995
-    - 1.1547
-    - 3.590728759249297
-  - - 3.3999999999999995
-    - 0.0
-    - 3.590728629401002
-    - 1.1547004037844621
-  - - 1.1547
-    - 3.590728629401002
-    - 0.0
-    - 3.590728759249297
-  - - 3.590728759249297
-    - 1.1547004037844621
-    - 3.590728759249297
-    - 0.0
-  atomic_numbers:
-  - 6
-  - 6
-  - 6
-  - 6
-  band_gap: 1.0619999999999994
-  cbm: 0.4643716599999994
-  cell:
-  - - 2.0
-    - 0.0
-    - 0.0
-  - - -1.0
-    - 1.732050808
-    - 0.0
-  - - 0.0
-    - 0.0
-    - 6.8
-  cell_lengths_and_angles:
-  - 2.0
-  - 2.000000000373363
-  - 6.8
-  - 90.0
-  - 90.0
-  - 119.99999999382463
-  center_of_mass:
-  - 0.25
-  - 0.4330125
-  - 3.4
-  chemical_formula: C4
-  chemical_symbols:
-  - C
-  - C
-  - C
-  - C
-  convergency: 'No'
-  datetime: '2023-01-04 16:35:41'
-  external_pressure: 4054.1
-  forces:
-  - - 0.0
-    - 0.0
-    - 0.0
-  - - -0.0
-    - -0.0
-    - 0.0
-  - - -0.0
-    - -0.0
-    - 0.0
-  - - 0.0
-    - 0.0
-    - 0.0
-  global_number_of_atoms: 4
-  id_file: vasp_results.yml
-  initial_charges:
-  - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-  initial_magnetic_moments:
-  - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-  kinetic_energy: 0.0
-  magnetic_moment: 1.28e-05
-  magnetic_moments:
-  - 0.0
-  - 0.0
-  - 0.0
-  - 0.0
-  masses:
-  - 12.011
-  - 12.011
-  - 12.011
-  - 12.011
-  positions:
-  - - 0.0
-    - 0.0
-    - 1.7
-  - - 0.0
-    - 0.0
-    - 5.1
-  - - -0.0
-    - 1.1547
-    - 1.7
-  - - 1.0
-    - 0.57735
-    - 5.1
-  potential_energy: -20.61971291
-  pullay_stress: 0.0
-  temperature: 0.0
-  total_energy: -20.61971291
-  user: Your user name
-  vbm: -0.59762834
-  volume: 23.555890988799998
-2023-01-04-16h34m58s-DFT-VASP_vasp_results.yml:
+2023-01-05-17h13m19s-DFT-VASP0_vasp_results.yml:
   TABS:
     Analysis:
       Bader: false
@@ -272,7 +92,7 @@
       LWAVE: false
       MD: false
       NCORE: 4
-      NSW: 1
+      NSW: 100
       POTIM: 0.25
       PREC: Normal
       SOC: false
@@ -289,70 +109,250 @@
       properties: false
   all_distances:
   - - 0.0
-    - 3.3999999999999995
-    - 1.1547
-    - 3.590728759249297
-  - - 3.3999999999999995
+    - 4.158949999999999
+    - 1.42377
+    - 4.39590614037652
+  - - 4.158949999999999
     - 0.0
-    - 3.590728629401002
-    - 1.1547004037844621
-  - - 1.1547
-    - 3.590728629401002
+    - 4.395905608108526
+    - 1.4237716433824634
+  - - 1.42377
+    - 4.395905608108526
     - 0.0
-    - 3.590728759249297
-  - - 3.590728759249297
-    - 1.1547004037844621
-    - 3.590728759249297
+    - 4.395904520949015
+  - - 4.39590614037652
+    - 1.4237716433824634
+    - 4.395904520949015
     - 0.0
   atomic_numbers:
   - 6
   - 6
   - 6
   - 6
-  band_gap: 1.0619999999999994
-  cbm: 0.46436308000000004
+  band_gap: 0.7669999999999999
+  cbm: 0.5873316699999998
   cell:
-  - - 2.0
+  - - 2.466044373
+    - -0.0
+    - -0.0
+  - - -1.233022186
+    - 2.135657074
+    - -0.0
+  - - -0.0
     - 0.0
-    - 0.0
-  - - -1.0
-    - 1.732050808
-    - 0.0
-  - - 0.0
-    - 0.0
-    - 6.8
+    - 8.317894635
   cell_lengths_and_angles:
-  - 2.0
-  - 2.000000000373363
-  - 6.8
+  - 2.466044373
+  - 2.4660443728559427
+  - 8.317894635
   - 90.0
   - 90.0
-  - 119.99999999382463
+  - 119.99999998851831
   center_of_mass:
-  - 0.25
-  - 0.4330125
-  - 3.4
+  - 0.308255
+  - 0.533915
+  - 4.158945
   chemical_formula: C4
   chemical_symbols:
   - C
   - C
   - C
   - C
-  convergency: 'No'
-  datetime: '2023-01-04 16:35:44'
-  external_pressure: 4060.72
+  convergency: 'Yes'
+  datetime: '2023-01-05 17:16:47'
+  external_pressure: -0.06
   forces:
   - - 0.0
     - -0.0
     - 0.0
+  - - -0.0
+    - 0.0
+    - 0.0
+  - - -0.0
+    - 0.0
+    - 0.0
   - - 0.0
+    - -0.0
+    - -0.0
+  global_number_of_atoms: 4
+  id_file: vasp_results.yml
+  initial_charges:
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  initial_magnetic_moments:
+  - 0.0
+  - 0.0
+  - 0.0
+  - 0.0
+  kinetic_energy: 0.0
+  magnetic_moment: -0.0
+  magnetic_moments:
+  - -0.0
+  - -0.0
+  - 0.0
+  - 0.0
+  masses:
+  - 12.011
+  - 12.011
+  - 12.011
+  - 12.011
+  positions:
+  - - -0.0
+    - 0.0
+    - 2.07947
+  - - -0.0
+    - 0.0
+    - 6.23842
+  - - -0.0
+    - 1.42377
+    - 2.07947
+  - - 1.23302
+    - 0.71189
+    - 6.23842
+  potential_energy: -36.94366202
+  pullay_stress: 0.0
+  temperature: 0.0
+  total_energy: -36.94366202
+  user: Your user name
+  vbm: -0.17966833000000015
+  volume: 43.807232746986564
+2023-01-05-17h13m19s-DFT-VASP_vasp_results.yml:
+  TABS:
+    Analysis:
+      Bader: false
+      Band_Structure: false
+      CHGCAR_file: CHGCAR
+      DOS: false
+      Mesh:
+        NGXF: 60
+        NGYF: 60
+        NGZF: 60
+      band:
+        IBRION: -1
+        ICHARG: 11
+        LORBIT: 11
+        NSW: 0
+        PREC: Accurate
+      dos_calculation:
+        IBRION: -1
+        LORBIT: 10
+        NEDOS: 6001
+        NSW: 0
+        PREC: Accurate
+    Files-Run:
+      INCAR_file: INCAR
+      Import INCAR: false
+      Import KORINGA: false
+      Import KPOINTS: false
+      Import POTCAR: false
+      KORINGA_file: KORINGA
+      KPOINTS_file: KPOINTS
+      POSCAR_file: POSCAR
+      POTCAR_file: POTCAR
+      Title: '1000.0'
+      prun_vasp: vasp_std
+    INCAR:
+      ALGO: NORMAL
+      CPMD:
+        Ensemble: NVE
+        NBLOCK: 50
+        TEBEG: 300.0
+        TEEND: 300.0
+      EDIFFG: -0.02
+      ENCUT: '1000.0'
+      GGA: PE
+      IBRION: 2
+      ISIF: 3
+      ISPIN: 2
+      IVDW: None
+      LCHARG: false
+      LREAL: AUTO
+      LWAVE: false
+      MD: false
+      NCORE: 4
+      NSW: 100
+      POTIM: 0.25
+      PREC: Normal
+      SOC: false
+    KPOINTS:
+      Kpoints_Monkhorst: false
+      Kpoints_length: true
+      Monkhorst: '[ [  4.0 , 4.0 , 1.0 ] , [  0.0 , 0.0 , 0.0 ] ] '
+      Rk_length: 30
+    Properties:
+      Import Inputs: false
+      Var-properties:
+      - var-name: total_energy
+      inputs: Inputs.yml
+      properties: false
+  all_distances:
+  - - 0.0
+    - 3.8040700000000003
+    - 1.42447
+    - 4.062028724590706
+  - - 3.8040700000000003
+    - 0.0
+    - 4.062026999639466
+    - 1.4244749188736179
+  - - 1.42447
+    - 4.062026999639466
+    - 0.0
+    - 4.0620269711930765
+  - - 4.062028724590706
+    - 1.4244749188736179
+    - 4.0620269711930765
+    - 0.0
+  atomic_numbers:
+  - 6
+  - 6
+  - 6
+  - 6
+  band_gap: 1.1860000000000004
+  cbm: 0.7655994900000005
+  cell:
+  - - 2.467256773
+    - 0.0
+    - 0.0
+  - - -1.233628387
+    - 2.136707043
+    - 0.0
+  - - 0.0
+    - -0.0
+    - 7.60813312
+  cell_lengths_and_angles:
+  - 2.467256773
+  - 2.467256773183129
+  - 7.60813312
+  - 90.0
+  - 90.0
+  - 120.00000001095219
+  center_of_mass:
+  - 0.3084075
+  - 0.5341775
+  - 3.804065
+  chemical_formula: C4
+  chemical_symbols:
+  - C
+  - C
+  - C
+  - C
+  convergency: 'Yes'
+  datetime: '2023-01-05 17:16:53'
+  external_pressure: -1.33
+  forces:
+  - - 0.0
+    - -0.0
+    - 0.0
+  - - -0.0
     - 0.0
     - 0.0
   - - 0.0
     - 0.0
     - 0.0
   - - -0.0
-    - 0.0
+    - -0.0
     - 0.0
   global_number_of_atoms: 4
   id_file: vasp_results.yml
@@ -367,10 +367,10 @@
   - 0.0
   - 0.0
   kinetic_energy: 0.0
-  magnetic_moment: 1.25e-05
+  magnetic_moment: 0.0
   magnetic_moments:
-  - 0.0
-  - 0.0
+  - -0.0
+  - -0.0
   - 0.0
   - 0.0
   masses:
@@ -380,25 +380,25 @@
   - 12.011
   positions:
   - - 0.0
-    - 0.0
-    - 1.7
+    - -0.0
+    - 1.90203
   - - 0.0
-    - 0.0
-    - 5.1
+    - -0.0
+    - 5.7061
   - - -0.0
-    - 1.1547
-    - 1.7
-  - - 1.0
-    - 0.57735
-    - 5.1
-  potential_energy: -20.6173198
+    - 1.42447
+    - 1.90203
+  - - 1.23363
+    - 0.71224
+    - 5.7061
+  potential_energy: -36.93960067
   pullay_stress: 0.0
   temperature: 0.0
-  total_energy: -20.6173198
+  total_energy: -36.93960067
   user: Your user name
-  vbm: -0.5976369199999993
-  volume: 23.555890988799998
-2023-01-04-16h35m03s-DFT-VASP0_vasp_results.yml:
+  vbm: -0.4204005099999999
+  volume: 40.10859364262651
+2023-01-05-17h13m20s-DFT-VASP0_vasp_results.yml:
   TABS:
     Analysis:
       Bader: false
@@ -452,7 +452,7 @@
       LWAVE: false
       MD: false
       NCORE: 4
-      NSW: 1
+      NSW: 100
       POTIM: 0.25
       PREC: Normal
       SOC: false
@@ -469,63 +469,63 @@
       properties: false
   all_distances:
   - - 0.0
-    - 3.3999999999999995
-    - 1.1547
-    - 3.590728759249297
-  - - 3.3999999999999995
+    - 3.8336499999999996
+    - 1.42296
+    - 4.089216146806133
+  - - 3.8336499999999996
     - 0.0
-    - 3.590728629401002
-    - 1.1547004037844621
-  - - 1.1547
-    - 3.590728629401002
+    - 4.089215998709288
+    - 1.4229604255916608
+  - - 1.42296
+    - 4.089215998709288
     - 0.0
-    - 3.590728759249297
-  - - 3.590728759249297
-    - 1.1547004037844621
-    - 3.590728759249297
+    - 4.089216146806133
+  - - 4.089216146806133
+    - 1.4229604255916608
+    - 4.089216146806133
     - 0.0
   atomic_numbers:
   - 6
   - 6
   - 6
   - 6
-  band_gap: 1.0630000000000006
-  cbm: 0.46507911000000135
+  band_gap: 1.1870000000000003
+  cbm: 0.7666421400000001
   cell:
-  - - 2.0
+  - - 2.46464297
     - 0.0
     - 0.0
-  - - -1.0
-    - 1.732050808
+  - - -1.232321485
+    - 2.134443423
     - 0.0
-  - - 0.0
+  - - -0.0
     - 0.0
-    - 6.8
+    - 7.667301468
   cell_lengths_and_angles:
-  - 2.0
-  - 2.000000000373363
-  - 6.8
+  - 2.46464297
+  - 2.4646429697586143
+  - 7.667301468
   - 90.0
   - 90.0
-  - 119.99999999382463
+  - 120.0000000032398
   center_of_mass:
-  - 0.25
-  - 0.4330125
-  - 3.4
+  - 0.30808
+  - 0.53361
+  - 3.833655
   chemical_formula: C4
   chemical_symbols:
   - C
   - C
   - C
   - C
-  convergency: 'No'
-  datetime: '2023-01-04 16:35:36'
-  external_pressure: 4061.38
+  convergency: 'Yes'
+  datetime: '2023-01-05 17:15:28'
+  external_pressure: 1.7
   forces:
   - - -0.0
+    - -0.0
     - 0.0
-    - 0.0
-  - - -0.0
+  - - 0.0
     - 0.0
     - 0.0
   - - -0.0
@@ -547,10 +547,10 @@
   - 0.0
   - 0.0
   kinetic_energy: 0.0
-  magnetic_moment: 1.43e-05
+  magnetic_moment: 0.0
   magnetic_moments:
-  - 0.0
-  - 0.0
+  - -0.0
+  - -0.0
   - 0.0
   - 0.0
   masses:
@@ -559,26 +559,26 @@
   - 12.011
   - 12.011
   positions:
-  - - 0.0
-    - 0.0
-    - 1.7
-  - - 0.0
-    - 0.0
-    - 5.1
   - - -0.0
-    - 1.1547
-    - 1.7
-  - - 1.0
-    - 0.57735
-    - 5.1
-  potential_energy: -20.61139207
+    - 0.0
+    - 1.91683
+  - - -0.0
+    - 0.0
+    - 5.75048
+  - - -0.0
+    - 1.42296
+    - 1.91683
+  - - 1.23232
+    - 0.71148
+    - 5.75048
+  potential_energy: -36.93330818
   pullay_stress: 0.0
   temperature: 0.0
-  total_energy: -20.61139207
+  total_energy: -36.93330818
   user: Your user name
-  vbm: -0.5979208899999993
-  volume: 23.555890988799998
-2023-01-04-16h35m03s-DFT-VASP1_vasp_results.yml:
+  vbm: -0.4203578600000002
+  volume: 40.33492028833087
+2023-01-05-17h13m20s-DFT-VASP1_vasp_results.yml:
   TABS:
     Analysis:
       Bader: false
@@ -632,7 +632,7 @@
       LWAVE: false
       MD: false
       NCORE: 4
-      NSW: 1
+      NSW: 100
       POTIM: 0.25
       PREC: Normal
       SOC: false
@@ -649,60 +649,63 @@
       properties: false
   all_distances:
   - - 0.0
-    - 3.3999999999999995
-    - 1.1547
-    - 3.590728759249297
-  - - 3.3999999999999995
+    - 3.87255
+    - 1.42248
+    - 4.125543368842461
+  - - 3.87255
     - 0.0
-    - 3.590728629401002
-    - 1.1547004037844621
-  - - 1.1547
-    - 3.590728629401002
+    - 4.125541522382243
+    - 1.4224853551794479
+  - - 1.42248
+    - 4.125541522382243
     - 0.0
-    - 3.590728759249297
-  - - 3.590728759249297
-    - 1.1547004037844621
-    - 3.590728759249297
+    - 4.125543368842461
+  - - 4.125543368842461
+    - 1.4224853551794479
+    - 4.125543368842461
     - 0.0
   atomic_numbers:
   - 6
   - 6
   - 6
   - 6
-  band_gap: 1.0630000000000006
-  cbm: 0.4650777900000005
+  band_gap: 0.7839999999999994
+  cbm: 0.6000517799999994
   cell:
-  - - 2.0
+  - - 2.463813981
+    - -0.0
     - 0.0
+  - - -1.23190699
+    - 2.133725498
     - 0.0
-  - - -1.0
-    - 1.732050808
-    - 0.0
-  - - 0.0
-    - 0.0
-    - 6.8
+  - - -0.0
+    - -0.0
+    - 7.74509324
   cell_lengths_and_angles:
-  - 2.0
-  - 2.000000000373363
-  - 6.8
+  - 2.463813981
+  - 2.4638139809706026
+  - 7.74509324
   - 90.0
   - 90.0
-  - 119.99999999382463
+  - 119.99999998696848
   center_of_mass:
-  - 0.25
-  - 0.4330125
-  - 3.4
+  - 0.3079775
+  - 0.53343
+  - 3.8725449999999997
   chemical_formula: C4
   chemical_symbols:
   - C
   - C
   - C
   - C
-  convergency: 'No'
-  datetime: '2023-01-04 16:35:36'
-  external_pressure: 4049.48
+  convergency: 'Yes'
+  datetime: '2023-01-05 17:15:48'
+  external_pressure: 0.28
   forces:
   - - -0.0
+    - -0.0
+    - -0.0
+  - - -0.0
     - 0.0
     - 0.0
   - - 0.0
@@ -710,9 +713,6 @@
     - 0.0
   - - -0.0
     - 0.0
-    - 0.0
-  - - 0.0
-    - -0.0
     - 0.0
   global_number_of_atoms: 4
   id_file: vasp_results.yml
@@ -727,38 +727,38 @@
   - 0.0
   - 0.0
   kinetic_energy: 0.0
-  magnetic_moment: 1.47e-05
+  magnetic_moment: -0.0
   magnetic_moments:
   - 0.0
   - 0.0
-  - 0.0
-  - 0.0
+  - -0.0
+  - -0.0
   masses:
   - 12.011
   - 12.011
   - 12.011
   - 12.011
   positions:
-  - - 0.0
-    - 0.0
-    - 1.7
-  - - 0.0
-    - 0.0
-    - 5.1
   - - -0.0
-    - 1.1547
-    - 1.7
-  - - 1.0
-    - 0.57735
-    - 5.1
-  potential_energy: -20.60247618
+    - -0.0
+    - 1.93627
+  - - -0.0
+    - -0.0
+    - 5.80882
+  - - -0.0
+    - 1.42248
+    - 1.93627
+  - - 1.23191
+    - 0.71124
+    - 5.80882
+  potential_energy: -36.91984508
   pullay_stress: 0.0
   temperature: 0.0
-  total_energy: -20.60247618
+  total_energy: -36.91984508
   user: Your user name
-  vbm: -0.5979222100000001
-  volume: 23.555890988799998
-2023-01-04-16h35m03s-DFT-VASP2_vasp_results.yml:
+  vbm: -0.18394822
+  volume: 40.71675068900061
+2023-01-05-17h13m20s-DFT-VASP2_vasp_results.yml:
   TABS:
     Analysis:
       Bader: false
@@ -812,7 +812,7 @@
       LWAVE: false
       MD: false
       NCORE: 4
-      NSW: 1
+      NSW: 100
       POTIM: 0.25
       PREC: Normal
       SOC: false
@@ -829,71 +829,71 @@
       properties: false
   all_distances:
   - - 0.0
-    - 3.3999999999999995
-    - 1.1547
-    - 3.590728759249297
-  - - 3.3999999999999995
+    - 3.7460899999999997
+    - 1.42115
+    - 4.006605096849451
+  - - 3.7460899999999997
     - 0.0
-    - 3.590728629401002
-    - 1.1547004037844621
-  - - 1.1547
-    - 3.590728629401002
+    - 4.006601753431453
+    - 1.4211594259617744
+  - - 1.42115
+    - 4.006601753431453
     - 0.0
-    - 3.590728759249297
-  - - 3.590728759249297
-    - 1.1547004037844621
-    - 3.590728759249297
+    - 4.006603323340108
+  - - 4.006605096849451
+    - 1.4211594259617744
+    - 4.006603323340108
     - 0.0
   atomic_numbers:
   - 6
   - 6
   - 6
   - 6
-  band_gap: 0.0
-  cbm: 0.0
+  band_gap: 1.1919999999999997
+  cbm: 0.8105354199999999
   cell:
-  - - 2.0
+  - - 2.461511224
     - 0.0
     - 0.0
-  - - -1.0
-    - 1.732050808
-    - 0.0
+  - - -1.230755612
+    - 2.131731252
+    - -0.0
   - - 0.0
     - 0.0
-    - 6.8
+    - 7.49218202
   cell_lengths_and_angles:
-  - 2.0
-  - 2.000000000373363
-  - 6.8
+  - 2.461511224
+  - 2.461511224273207
+  - 7.49218202
   - 90.0
   - 90.0
-  - 119.99999999382463
+  - 119.99999999632844
   center_of_mass:
-  - 0.25
-  - 0.4330125
-  - 3.4
+  - 0.30769
+  - 0.5329325
+  - 3.7460949999999995
   chemical_formula: C4
   chemical_symbols:
   - C
   - C
   - C
   - C
-  convergency: 'No'
-  datetime: '2023-01-04 16:35:38'
-  external_pressure: 4053.43
+  convergency: 'Yes'
+  datetime: '2023-01-05 17:15:22'
+  external_pressure: -1.19
   forces:
   - - 0.0
     - 0.0
-    - 0.0
+    - -0.0
   - - -0.0
     - -0.0
     - 0.0
   - - 0.0
-    - 0.0
-    - 0.0
-  - - 0.0
     - -0.0
     - 0.0
+  - - -0.0
+    - 0.0
+    - -0.0
   global_number_of_atoms: 4
   id_file: vasp_results.yml
   initial_charges:
@@ -907,10 +907,10 @@
   - 0.0
   - 0.0
   kinetic_energy: 0.0
-  magnetic_moment: 1.49e-05
+  magnetic_moment: 0.0
   magnetic_moments:
-  - 0.0
-  - 0.0
+  - -0.0
+  - -0.0
   - 0.0
   - 0.0
   masses:
@@ -921,24 +921,24 @@
   positions:
   - - 0.0
     - 0.0
-    - 1.7
+    - 1.87305
   - - 0.0
     - 0.0
-    - 5.1
+    - 5.61914
   - - -0.0
-    - 1.1547
-    - 1.7
-  - - 1.0
-    - 0.57735
-    - 5.1
-  potential_energy: -20.6082108
+    - 1.42115
+    - 1.87305
+  - - 1.23076
+    - 0.71058
+    - 5.61914
+  potential_energy: -36.87737429
   pullay_stress: 0.0
   temperature: 0.0
-  total_energy: -20.6082108
+  total_energy: -36.87737429
   user: Your user name
-  vbm: 0.0
-  volume: 23.555890988799998
-2023-01-04-16h35m03s-DFT-VASP_vasp_results.yml:
+  vbm: -0.38146457999999983
+  volume: 39.31357989187402
+2023-01-05-17h13m20s-DFT-VASP_vasp_results.yml:
   TABS:
     Analysis:
       Bader: false
@@ -992,7 +992,7 @@
       LWAVE: false
       MD: false
       NCORE: 4
-      NSW: 1
+      NSW: 100
       POTIM: 0.25
       PREC: Normal
       SOC: false
@@ -1009,71 +1009,71 @@
       properties: false
   all_distances:
   - - 0.0
-    - 3.3999999999999995
-    - 1.1547
-    - 3.590728759249297
-  - - 3.3999999999999995
+    - 4.018120000000001
+    - 1.42375
+    - 4.262902324860376
+  - - 4.018120000000001
     - 0.0
-    - 3.590728629401002
-    - 1.1547004037844621
-  - - 1.1547
-    - 3.590728629401002
+    - 4.262904220939054
+    - 1.4237443228684004
+  - - 1.42375
+    - 4.262904220939054
     - 0.0
-    - 3.590728759249297
-  - - 3.590728759249297
-    - 1.1547004037844621
-    - 3.590728759249297
+    - 4.262903994790406
+  - - 4.262902324860376
+    - 1.4237443228684004
+    - 4.262903994790406
     - 0.0
   atomic_numbers:
   - 6
   - 6
   - 6
   - 6
-  band_gap: 1.0619999999999994
-  cbm: 0.46436794999999975
+  band_gap: 1.161
+  cbm: 0.7254145199999997
   cell:
-  - - 2.0
+  - - 2.466000902
     - 0.0
     - 0.0
-  - - -1.0
-    - 1.732050808
+  - - -1.233000451
+    - 2.135619427
+    - -0.0
+  - - -0.0
     - 0.0
-  - - 0.0
-    - 0.0
-    - 6.8
+    - 8.036244903
   cell_lengths_and_angles:
-  - 2.0
-  - 2.000000000373363
-  - 6.8
+  - 2.466000902
+  - 2.4660009020975666
+  - 8.036244903
   - 90.0
   - 90.0
-  - 119.99999999382463
+  - 119.99999999869121
   center_of_mass:
-  - 0.25
-  - 0.4330125
-  - 3.4
+  - 0.30825
+  - 0.533905
+  - 4.018120000000001
   chemical_formula: C4
   chemical_symbols:
   - C
   - C
   - C
   - C
-  convergency: 'No'
-  datetime: '2023-01-04 16:35:38'
-  external_pressure: 4053.94
+  convergency: 'Yes'
+  datetime: '2023-01-05 17:16:12'
+  external_pressure: -0.02
   forces:
-  - - 0.0
-    - 0.0
-    - 0.0
-  - - 0.0
-    - 0.0
-    - 0.0
   - - -0.0
     - 0.0
     - 0.0
   - - 0.0
     - -0.0
+    - -0.0
+  - - 0.0
+    - -0.0
     - 0.0
+  - - -0.0
+    - 0.0
+    - -0.0
   global_number_of_atoms: 4
   id_file: vasp_results.yml
   initial_charges:
@@ -1087,10 +1087,10 @@
   - 0.0
   - 0.0
   kinetic_energy: 0.0
-  magnetic_moment: 1.49e-05
+  magnetic_moment: 0.0
   magnetic_moments:
-  - 0.0
-  - 0.0
+  - -0.0
+  - -0.0
   - 0.0
   - 0.0
   masses:
@@ -1099,26 +1099,26 @@
   - 12.011
   - 12.011
   positions:
-  - - 0.0
-    - 0.0
-    - 1.7
-  - - 0.0
-    - 0.0
-    - 5.1
   - - -0.0
-    - 1.1547
-    - 1.7
-  - - 1.0
-    - 0.57735
-    - 5.1
-  potential_energy: -20.61442981
+    - 0.0
+    - 2.00906
+  - - -0.0
+    - 0.0
+    - 6.02718
+  - - -0.0
+    - 1.42375
+    - 2.00906
+  - - 1.233
+    - 0.71187
+    - 6.02718
+  potential_energy: -36.94026399
   pullay_stress: 0.0
   temperature: 0.0
-  total_energy: -20.61442981
+  total_energy: -36.94026399
   user: Your user name
-  vbm: -0.5976320499999996
-  volume: 23.555890988799998
-2023-01-04-16h35m04s-DFT-VASP0_vasp_results.yml:
+  vbm: -0.4355854800000003
+  volume: 42.322397052901515
+2023-01-05-17h13m21s-DFT-VASP0_vasp_results.yml:
   TABS:
     Analysis:
       Bader: false
@@ -1172,7 +1172,7 @@
       LWAVE: false
       MD: false
       NCORE: 4
-      NSW: 1
+      NSW: 100
       POTIM: 0.25
       PREC: Normal
       SOC: false
@@ -1189,71 +1189,71 @@
       properties: false
   all_distances:
   - - 0.0
-    - 3.3999999999999995
-    - 1.1547
-    - 3.590728759249297
-  - - 3.3999999999999995
+    - 3.3961900000000003
+    - 1.41202
+    - 3.678028589040602
+  - - 3.3961900000000003
     - 0.0
-    - 3.590728629401002
-    - 1.1547004037844621
-  - - 1.1547
-    - 3.590728629401002
+    - 3.6780303147880664
+    - 1.412015504766148
+  - - 1.41202
+    - 3.6780303147880664
     - 0.0
-    - 3.590728759249297
-  - - 3.590728759249297
-    - 1.1547004037844621
-    - 3.590728759249297
+    - 3.678028589040602
+  - - 3.678028589040602
+    - 1.412015504766148
+    - 3.678028589040602
     - 0.0
   atomic_numbers:
   - 6
   - 6
   - 6
   - 6
-  band_gap: 0.0
-  cbm: 0.0
+  band_gap: 0.8120000000000003
+  cbm: 0.61212657
   cell:
-  - - 2.0
+  - - 2.445685115
     - 0.0
     - 0.0
-  - - -1.0
-    - 1.732050808
+  - - -1.222842557
+    - 2.118025439
     - 0.0
-  - - 0.0
-    - 0.0
-    - 6.8
+  - - -0.0
+    - -0.0
+    - 6.792373724
   cell_lengths_and_angles:
-  - 2.0
-  - 2.000000000373363
-  - 6.8
+  - 2.445685115
+  - 2.445685114535688
+  - 6.792373724
   - 90.0
   - 90.0
-  - 119.99999999382463
+  - 119.99999999275441
   center_of_mass:
-  - 0.25
-  - 0.4330125
-  - 3.4
+  - 0.30571
+  - 0.5295075
+  - 3.3961850000000005
   chemical_formula: C4
   chemical_symbols:
   - C
   - C
   - C
   - C
-  convergency: 'No'
-  datetime: '2023-01-04 16:35:31'
-  external_pressure: 4052.32
+  convergency: 'Yes'
+  datetime: '2023-01-05 17:14:51'
+  external_pressure: -0.53
   forces:
   - - -0.0
-    - 0.0
+    - -0.0
     - 0.0
   - - 0.0
     - -0.0
     - 0.0
   - - -0.0
-    - -0.0
+    - 0.0
     - 0.0
   - - 0.0
-    - 0.0
-    - 0.0
+    - -0.0
+    - -0.0
   global_number_of_atoms: 4
   id_file: vasp_results.yml
   initial_charges:
@@ -1267,10 +1267,10 @@
   - 0.0
   - 0.0
   kinetic_energy: 0.0
-  magnetic_moment: 1.46e-05
+  magnetic_moment: -0.0
   magnetic_moments:
-  - 0.0
-  - 0.0
+  - -0.0
+  - -0.0
   - 0.0
   - 0.0
   masses:
@@ -1279,26 +1279,26 @@
   - 12.011
   - 12.011
   positions:
-  - - 0.0
-    - 0.0
-    - 1.7
-  - - 0.0
-    - 0.0
-    - 5.1
   - - -0.0
-    - 1.1547
-    - 1.7
-  - - 1.0
-    - 0.57735
-    - 5.1
-  potential_energy: -20.58591518
+    - -0.0
+    - 1.69809
+  - - -0.0
+    - -0.0
+    - 5.09428
+  - - -0.0
+    - 1.41202
+    - 1.69809
+  - - 1.22284
+    - 0.70601
+    - 5.09428
+  potential_energy: -36.59217511
   pullay_stress: 0.0
   temperature: 0.0
-  total_energy: -20.58591518
+  total_energy: -36.59217511
   user: Your user name
-  vbm: 0.0
-  volume: 23.555890988799998
-2023-01-04-16h35m04s-DFT-VASP1_vasp_results.yml:
+  vbm: -0.19987343000000024
+  volume: 35.1846540803137
+2023-01-05-17h13m21s-DFT-VASP1_vasp_results.yml:
   TABS:
     Analysis:
       Bader: false
@@ -1352,7 +1352,7 @@
       LWAVE: false
       MD: false
       NCORE: 4
-      NSW: 1
+      NSW: 100
       POTIM: 0.25
       PREC: Normal
       SOC: false
@@ -1369,70 +1369,70 @@
       properties: false
   all_distances:
   - - 0.0
-    - 3.3999999999999995
-    - 1.1547
-    - 3.590728759249297
-  - - 3.3999999999999995
+    - 3.1616799999999996
+    - 1.40547
+    - 3.4599931624498907
+  - - 3.1616799999999996
     - 0.0
-    - 3.590728629401002
-    - 1.1547004037844621
-  - - 1.1547
-    - 3.590728629401002
+    - 3.45999513631161
+    - 1.405465140727439
+  - - 1.40547
+    - 3.45999513631161
     - 0.0
-    - 3.590728759249297
-  - - 3.590728759249297
-    - 1.1547004037844621
-    - 3.590728759249297
+    - 3.45999519347932
+  - - 3.4599931624498907
+    - 1.405465140727439
+    - 3.45999519347932
     - 0.0
   atomic_numbers:
   - 6
   - 6
   - 6
   - 6
-  band_gap: 1.0629999999999988
-  cbm: 0.46502044
+  band_gap: 1.2400000000000002
+  cbm: 0.7812594800000001
   cell:
-  - - 2.0
+  - - 2.434344909
     - 0.0
     - 0.0
-  - - -1.0
-    - 1.732050808
-    - 0.0
+  - - -1.217172455
+    - 2.108204533
+    - -0.0
   - - 0.0
-    - 0.0
-    - 6.8
+    - -0.0
+    - 6.323360028
   cell_lengths_and_angles:
-  - 2.0
-  - 2.000000000373363
-  - 6.8
+  - 2.434344909
+  - 2.434344909451509
+  - 6.323360028
   - 90.0
   - 90.0
-  - 119.99999999382463
+  - 120.00000000745332
   center_of_mass:
-  - 0.25
-  - 0.4330125
-  - 3.4
+  - 0.3042925
+  - 0.52705
+  - 3.16168
   chemical_formula: C4
   chemical_symbols:
   - C
   - C
   - C
   - C
-  convergency: 'No'
-  datetime: '2023-01-04 16:35:31'
-  external_pressure: 4024.81
+  convergency: 'Yes'
+  datetime: '2023-01-05 17:15:22'
+  external_pressure: 0.06
   forces:
   - - -0.0
     - 0.0
+    - -0.0
+  - - -0.0
+    - -0.0
     - 0.0
   - - 0.0
     - -0.0
-    - 0.0
+    - -0.0
   - - -0.0
     - 0.0
-    - 0.0
-  - - 0.0
-    - -0.0
     - 0.0
   global_number_of_atoms: 4
   id_file: vasp_results.yml
@@ -1447,10 +1447,10 @@
   - 0.0
   - 0.0
   kinetic_energy: 0.0
-  magnetic_moment: 2.06e-05
+  magnetic_moment: -0.0
   magnetic_moments:
-  - 0.0
-  - 0.0
+  - -0.0
+  - -0.0
   - 0.0
   - 0.0
   masses:
@@ -1460,25 +1460,25 @@
   - 12.011
   positions:
   - - 0.0
-    - 0.0
-    - 1.7
+    - -0.0
+    - 1.58084
   - - 0.0
-    - 0.0
-    - 5.1
+    - -0.0
+    - 4.74252
   - - -0.0
-    - 1.1547
-    - 1.7
-  - - 1.0
-    - 0.57735
-    - 5.1
-  potential_energy: -20.56029454
+    - 1.40547
+    - 1.58084
+  - - 1.21717
+    - 0.70273
+    - 4.74252
+  potential_energy: -36.13209602
   pullay_stress: 0.0
   temperature: 0.0
-  total_energy: -20.56029454
+  total_energy: -36.13209602
   user: Your user name
-  vbm: -0.5979795599999989
-  volume: 23.555890988799998
-2023-01-04-16h35m04s-DFT-VASP2_vasp_results.yml:
+  vbm: -0.4587405200000001
+  volume: 32.45209685281297
+2023-01-05-17h13m21s-DFT-VASP2_vasp_results.yml:
   TABS:
     Analysis:
       Bader: false
@@ -1532,7 +1532,7 @@
       LWAVE: false
       MD: false
       NCORE: 4
-      NSW: 1
+      NSW: 100
       POTIM: 0.25
       PREC: Normal
       SOC: false
@@ -1549,71 +1549,71 @@
       properties: false
   all_distances:
   - - 0.0
-    - 3.3999999999999995
-    - 1.1547
-    - 3.590728759249297
-  - - 3.3999999999999995
+    - 2.91921
+    - 1.38527
+    - 3.231215784097373
+  - - 2.91921
     - 0.0
-    - 3.590728629401002
-    - 1.1547004037844621
-  - - 1.1547
-    - 3.590728629401002
+    - 3.231216488723713
+    - 1.3852683564205168
+  - - 1.38527
+    - 3.231216488723713
     - 0.0
-    - 3.590728759249297
-  - - 3.590728759249297
-    - 1.1547004037844621
-    - 3.590728759249297
+    - 3.2312179276706177
+  - - 3.231215784097373
+    - 1.3852683564205168
+    - 3.2312179276706177
     - 0.0
   atomic_numbers:
   - 6
   - 6
   - 6
   - 6
-  band_gap: 1.0620000000000012
-  cbm: 0.46460918000000007
+  band_gap: 0.8550000000000004
+  cbm: 0.5823875000000003
   cell:
-  - - 2.0
+  - - 2.399354544
     - 0.0
     - 0.0
-  - - -1.0
-    - 1.732050808
-    - 0.0
-  - - 0.0
-    - 0.0
-    - 6.8
+  - - -1.199677272
+    - 2.077901988
+    - -0.0
+  - - -0.0
+    - -0.0
+    - 5.838433054
   cell_lengths_and_angles:
-  - 2.0
-  - 2.000000000373363
-  - 6.8
+  - 2.399354544
+  - 2.3993545441821875
+  - 5.838433054
   - 90.0
   - 90.0
-  - 119.99999999382463
+  - 119.99999999748819
   center_of_mass:
-  - 0.25
-  - 0.4330125
-  - 3.4
+  - 0.29992
+  - 0.519475
+  - 2.9192150000000003
   chemical_formula: C4
   chemical_symbols:
   - C
   - C
   - C
   - C
-  convergency: 'No'
-  datetime: '2023-01-04 16:35:28'
-  external_pressure: 3899.19
+  convergency: 'Yes'
+  datetime: '2023-01-05 17:14:58'
+  external_pressure: -0.05
   forces:
-  - - 0.0
-    - 0.0
-    - 0.0
-  - - -0.0
-    - 0.0
-    - 0.0
   - - -0.0
     - 0.0
     - 0.0
   - - 0.0
+    - 0.0
     - -0.0
+  - - 0.0
     - 0.0
+    - 0.0
+  - - -0.0
+    - -0.0
+    - -0.0
   global_number_of_atoms: 4
   id_file: vasp_results.yml
   initial_charges:
@@ -1627,38 +1627,38 @@
   - 0.0
   - 0.0
   kinetic_energy: 0.0
-  magnetic_moment: 2.16e-05
+  magnetic_moment: 0.0
   magnetic_moments:
   - 0.0
   - 0.0
-  - 0.0
-  - 0.0
+  - -0.0
+  - -0.0
   masses:
   - 12.011
   - 12.011
   - 12.011
   - 12.011
   positions:
-  - - 0.0
-    - 0.0
-    - 1.7
-  - - 0.0
-    - 0.0
-    - 5.1
   - - -0.0
-    - 1.1547
-    - 1.7
-  - - 1.0
-    - 0.57735
-    - 5.1
-  potential_energy: -20.31864562
+    - -0.0
+    - 1.45961
+  - - -0.0
+    - -0.0
+    - 4.37882
+  - - -0.0
+    - 1.38527
+    - 1.45961
+  - - 1.19968
+    - 0.69263
+    - 4.37882
+  potential_energy: -34.85052871
   pullay_stress: 0.0
   temperature: 0.0
-  total_energy: -20.31864562
+  total_energy: -34.85052871
   user: Your user name
-  vbm: -0.5973908200000011
-  volume: 23.555890988799998
-2023-01-04-16h35m04s-DFT-VASP_vasp_results.yml:
+  vbm: -0.27261250000000015
+  volume: 29.108229486142175
+2023-01-05-17h13m21s-DFT-VASP_vasp_results.yml:
   TABS:
     Analysis:
       Bader: false
@@ -1712,7 +1712,7 @@
       LWAVE: false
       MD: false
       NCORE: 4
-      NSW: 1
+      NSW: 100
       POTIM: 0.25
       PREC: Normal
       SOC: false
@@ -1729,70 +1729,70 @@
       properties: false
   all_distances:
   - - 0.0
-    - 3.3999999999999995
-    - 1.1547
-    - 3.590728759249297
-  - - 3.3999999999999995
+    - 3.55847
+    - 1.41775
+    - 3.83050087996335
+  - - 3.55847
     - 0.0
-    - 3.590728629401002
-    - 1.1547004037844621
-  - - 1.1547
-    - 3.590728629401002
+    - 3.8304991585170725
+    - 1.4177546510239352
+  - - 1.41775
+    - 3.8304991585170725
     - 0.0
-    - 3.590728759249297
-  - - 3.590728759249297
-    - 1.1547004037844621
-    - 3.590728759249297
+    - 3.830499029356358
+  - - 3.83050087996335
+    - 1.4177546510239352
+    - 3.830499029356358
     - 0.0
   atomic_numbers:
   - 6
   - 6
   - 6
   - 6
-  band_gap: 1.0620000000000012
-  cbm: 0.46481333000000014
+  band_gap: 0.8020000000000005
+  cbm: 0.5157145700000001
   cell:
-  - - 2.0
+  - - 2.455619351
     - 0.0
-    - 0.0
-  - - -1.0
-    - 1.732050808
+    - -0.0
+  - - -1.227809675
+    - 2.12662874
     - 0.0
   - - 0.0
     - 0.0
-    - 6.8
+    - 7.116926734
   cell_lengths_and_angles:
-  - 2.0
-  - 2.000000000373363
-  - 6.8
+  - 2.455619351
+  - 2.455619350758092
+  - 7.116926734
   - 90.0
   - 90.0
-  - 119.99999999382463
+  - 119.99999998978771
   center_of_mass:
-  - 0.25
-  - 0.4330125
-  - 3.4
+  - 0.3069525
+  - 0.5316575
+  - 3.5584650000000004
   chemical_formula: C4
   chemical_symbols:
   - C
   - C
   - C
   - C
-  convergency: 'No'
-  datetime: '2023-01-04 16:35:32'
-  external_pressure: 4054.63
+  convergency: 'Yes'
+  datetime: '2023-01-05 17:15:01'
+  external_pressure: 0.17
   forces:
-  - - -0.0
-    - 0.0
-    - 0.0
   - - 0.0
-    - -0.0
     - 0.0
+    - -0.0
   - - -0.0
     - -0.0
     - 0.0
   - - 0.0
     - 0.0
+    - -0.0
+  - - -0.0
+    - -0.0
     - 0.0
   global_number_of_atoms: 4
   id_file: vasp_results.yml
@@ -1807,7 +1807,7 @@
   - 0.0
   - 0.0
   kinetic_energy: 0.0
-  magnetic_moment: 1.4e-05
+  magnetic_moment: 0.0
   magnetic_moments:
   - 0.0
   - 0.0
@@ -1821,20 +1821,20 @@
   positions:
   - - 0.0
     - 0.0
-    - 1.7
+    - 1.77923
   - - 0.0
     - 0.0
-    - 5.1
+    - 5.3377
   - - -0.0
-    - 1.1547
-    - 1.7
-  - - 1.0
-    - 0.57735
-    - 5.1
-  potential_energy: -20.60746584
+    - 1.41775
+    - 1.77923
+  - - 1.22781
+    - 0.70888
+    - 5.3377
+  potential_energy: -36.78789074
   pullay_stress: 0.0
   temperature: 0.0
-  total_energy: -20.60746584
+  total_energy: -36.78789074
   user: Your user name
-  vbm: -0.597186670000001
-  volume: 23.555890988799998
+  vbm: -0.2862854300000004
+  volume: 37.165948505635804
