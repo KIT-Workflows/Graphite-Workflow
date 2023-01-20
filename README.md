@@ -9,21 +9,16 @@ In density functional theory (DFT) calculations, convergence tests of ENCUT and 
 
 In this workflow, we utilize the powerful features of the SimStack framework to perform density functional theory (DFT) calculations for graphite with van der Waals correction applied to the AB stacking structure. By combining the **WaNos**: Graphire, Mult-It, DFT-VASP, QE-DFT, and DB-Generator, we can easily set up the graphite lattice parameters and choose the appropriate DFT methods using VASP or Quantum Espresso code.
 
-The raw data from the DFT calculation is automatically parsed and stored in a human-readable, lightweight database in '.yml' format, which can be accessed from GitHub Repos using Google Colab. With the help of libraries like matplotlib, seaborn, and others, users can quickly search and filter the data based on specific criteria, allowing them to identify trends and patterns in complex systems. Overall, the SimStack framework makes it easy for users to gain valuable insights into the properties of graphite. 
+The raw data from the DFT calculation is automatically parsed and stored in a human-readable, lightweight database in `.yml` format, which can be accessed from GitHub Repos using Google Colab. With the help of libraries like matplotlib, seaborn, and others, users can quickly search and filter the data based on specific criteria, allowing them to identify trends and patterns in complex systems. Overall, the SimStack framework makes it easy for users to gain valuable insights into the properties of graphite. 
 
 ### In this workflow, we will be able to:
 ```
-1. Load a molecule or a set of them and define the number of points above a particuĺar surface (Mult-Mol).
-2. Defining the surface type and setting a molecule's position above the surface (Surface).
-3. Run the DFT calculations using VASP code, accounting for the proper corrections (DFT-VASP).
-4. Arrange all the total energy values of the system in a table format (Table-Generator). 
+1. SetSetting up floats, and integers or read the files' names from a given `.tar` (Mult-It).
+2. Building the graphite structure by toggling the lattice parameters (Graphite).
+3. Run the DFT calculations using QE or VASP code, accounting for the proper corrections (DFT-VASP or DFT-QE).
+4. Generating a lightweight, human-readable database in `.yml` format for all **WaNos** of a 
+  given workflow. 
 ```
-
-## DFT-Surface workflow with **_ForEach_** loop control
-
-<img src="Workflow_DFT_Surface.png"  width="90%">
-
-**Fig 1** _This workflow aims to perform several DFT calculations of molecules absorbing on a given surface. It is composed of Mult-Mol, Surface, DFT-VASP, and Table-Generator **WaNos** connected by the ForEach loop control. In step 1, we generate the number of points over the surface, where the molecule will be added. Steps 2 and 3 define the surface type and the DFT calculation methods employed in the simulation. The **WaNo** in the last step extracts the inquired variables of the output file from the previous steps._
 
 ## 1. Python Setup
 To get this workflow up running on your available computational resources, make sure to have the below libraries installed on Python 3.6 or newer.
