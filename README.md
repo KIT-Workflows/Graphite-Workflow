@@ -1,6 +1,6 @@
 <img src="https://raw.githubusercontent.com/KIT-Workflows/DFT-Surface/main/dft_surface_logo.png" alt="DFT-Surface WaNo logo" width="200"/>
 
-When publishing results obtained with Graphite-Workflow, please consider citing it. [![DOI](https://doi.org/10.3389/fmats.2022.877597)](https://doi.org/10.3389/fmats.2022.877597)
+When publishing results obtained with Graphite-Workflow, please consider citing it.
 
 
 # DFT-Surface
