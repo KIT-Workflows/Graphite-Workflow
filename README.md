@@ -3,11 +3,13 @@
 When publishing results obtained with Graphite-Workflow, please consider citing it.
 
 
-# DFT-Surface
+# Graphite-Workflow
 
-In this workflow, we use the SimStack framework features to perform as an option a single shot DFT calculation of molecules absorbing on a surface. Here, we combine four different **WaNos**: Mult-Mol, Surface, DFT-VASP, and Table-Generator, to set up a molecule position on the surface, surface type, load molecules file structures, and choose the methods embedded in the DFT approach using VASP code. A table containing the system's total energy, molecule label, and molecule position on the surface is the expected output of this protocol.
+In density functional theory (DFT) calculations, convergence tests of ENCUT and KPOINTS are crucial for obtaining accurate results. However, these tests are often neglected during the modeling phase since they require the submission of many short-time jobs, which requires extensive expertise in scripting, and command-line execution to handle the I/O files, which might be an issue for new users. We address this drawback by using workflow tools to manage the DFT calculations, which automate the process of performing convergence tests and ensure that the calculations are performed correctly. This can help to improve the accuracy and reliability of DFT results and prevent errors or inaccuracies from creeping into published research.
 
-Using the drag-and-drop features of Simstack, we can build the Workflow depicted in **Fig 1** in four steps. The Mult-mol **WaNo** accounts for the number of different positions for each molecule on the surface. In the second step, we add the Surface **WaNo** inside the ForEach loop control to generate the POSCAR files of adsorbed molecules to the chosen surface. In the third step, we insert the DFT-VASP **WaNo**, which will receive the generated files from the previous one. At this step, We can take advantage of the parallelization in the HPC remote resources once the ForEach loop control is designed for this end. Table-Generator **WaNo** extracts three variable values on the OUTCAR file: steps two and three output files. This **WaNo** builds a table named Table_var in CSV format at the end of the protocol. 
+In this workflow, we utilize the powerful features of the SimStack framework to perform density functional theory (DFT) calculations for graphite with van der Waals correction applied to the AB stacking structure. By combining the **WaNos**: Graphire, Mult-It, DFT-VASP, QE-DFT, and DB-Generator, we can easily set up the graphite lattice parameters and choose the appropriate DFT methods using VASP or Quantum Espresso code.
+
+The raw data from the DFT calculation is automatically parsed and stored in a human-readable, lightweight database in '.yml' format, which can be accessed from GitHub Repos using Google Colab. With the help of libraries like matplotlib, seaborn, and others, users can quickly search and filter the data based on specific criteria, allowing them to identify trends and patterns in complex systems. Overall, the SimStack framework makes it easy for users to gain valuable insights into the properties of graphite. 
 
 ### In this workflow, we will be able to:
 ```
